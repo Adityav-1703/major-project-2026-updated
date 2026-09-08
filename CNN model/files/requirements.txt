@@ -1,0 +1,27 @@
+# ── Deep learning ─────────────────────────────────────────────────────────────
+tensorflow>=2.15.0
+numpy>=1.26.0
+Pillow>=10.2.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+
+# ── API ───────────────────────────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.9      # file uploads
+slowapi>=0.1.9               # rate limiting
+structlog>=24.1.0            # structured logging
+pydantic>=2.6.0
+
+# ── QR + certificates ─────────────────────────────────────────────────────────
+qrcode[pil]>=7.4.2
+cairosvg>=2.7.1              # SVG → PNG (optional, for SVG certs)
+
+# ── Blockchain ────────────────────────────────────────────────────────────────
+web3>=6.15.0
+ipfshttpclient>=0.8.0a2
+
+# ── Dev / testing ─────────────────────────────────────────────────────────────
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+httpx>=0.27.0                # async test client for FastAPI

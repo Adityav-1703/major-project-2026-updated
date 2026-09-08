@@ -1,0 +1,175 @@
+{
+  "app": {
+    "name": "AyurAuth",
+    "tagline": "KI + Blockchain Kräuter-Rückverfolgbarkeit",
+    "footer": "Entwickelt für Landwirte, Regulierungsbehörden und Verbraucher"
+  },
+  "nav": {
+    "upload": "Hochladen",
+    "verify": "Überprüfen",
+    "dashboard": "Dashboard",
+    "home": "Startseite",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "logout": "Abmelden",
+    "backToHome": "Zurück zur Startseite"
+  },
+  "landing": {
+    "heroTitle": "Authentische ayurvedische Kräuter mit KI & Blockchain",
+    "heroDescription": "Verfolgen Sie jede Kräuterpflanze vom Bauernhof bis zum Verbraucher mit geo-getaggten Uploads, maschineller Überprüfung und On-Chain-Datensätzen, die transparentes QR-basiertes Vertrauen ermöglichen.",
+    "startUpload": "Upload starten",
+    "scanVerify": "Scannen & Überprüfen",
+    "workflow": "Arbeitsablauf",
+    "workflowHelp": "Kennen Sie unseren Prozess nicht? Klicken Sie hier für Hilfe",
+    "howItWorks": "So funktioniert AyurAuth",
+    "workflowDescription": "AyurAuth verwendet KI- und Blockchain-Technologie, um die Authentizität ayurvedischer Kräuter vom Bauernhof bis zum Verbraucher zu gewährleisten. Klicken Sie auf einen der folgenden Schritte, um mehr darüber to erfahren.",
+    "stepsInvolved": "Beteiligte Schritte:",
+    "features": {
+      "geotagging": "Geo-Tagging",
+      "geotaggingDesc": "Erfassen Sie Bauernhof-Koordinaten direkt beim Upload für standortgestütztes Herkunftvertrauen.",
+      "aiVerification": "KI-Überprüfung",
+      "aiVerificationDesc": "KI-gesteuerte Prüfungen unterstützen bei Authentizitätsentscheidungen, bevor Datensätze finalisiert werden.",
+      "transparency": "Transparenz",
+      "transparencyDesc": "Verbraucher überprüfen den Verlauf mit QR-verknüpften IDs und unveränderlichen Blockchain-Referenzen."
+    }
+  },
+  "workflow": {
+    "upload": {
+      "title": "Hochladen",
+      "description": "Landwirte laden Kräuterbilder mit geo-getaggten Standortdaten hoch. Ziehen Sie einfach Fotos per Drag & Drop, und unser System erfasst die Bauernhofkoordinaten automatisch.",
+      "steps": ["Kräuterfotos aufnehmen", "Automatische Standorterfassung", "Chargendetails eingeben", "Zur Überprüfung einreichen"]
+    },
+    "aiVerification": {
+      "title": "KI-Überprüfung",
+      "description": "Unser benutzerdefiniertes CNN-Modell analysiert die Kräuterbilder auf Authentizität. Die KI überprüft Farbe, Textur, Form und andere visuelle Merkmale.",
+      "steps": ["Bildvorverarbeitung", "CNN-Analyse", "Vertrauensbewertung", "Authentizitätsentscheidung"]
+    },
+    "blockchain": {
+      "title": "Blockchain",
+      "description": "Überprüfte Datensätze werden zur Unveränderlichkeit On-Chain gespeichert. Jede Charge erhält einen einzigartigen kryptographischen Hash für fälschungssichere Verfolgung.",
+      "steps": ["Blockchain-Datensatz erstellen", "Eindeutigen Hash generieren", "Metadaten speichern", "Mit QR-Code verknüpfen"]
+    },
+    "qrGeneration": {
+      "title": "QR-Generierung",
+      "description": "Für jede überprüfte Charge wird ein einzigartiger QR-Code generiert. Dieser QR-Code enthält die vollständige Rückverfolgbarkeitsinformation.",
+      "steps": ["QR-Code generieren", "Mit Blockchain-Datensatz verknüpfen", "Auf Charge drucken/zuteilen", "Bereit für den Vertrieb"]
+    },
+    "consumerScan": {
+      "title": "Verbraucher-Scan",
+      "description": "Endverbraucher können den QR-Code scannen, um die Authentizität to überprüfen. Sie sehen die vollständige Reise vom Bauernhof bis in ihre Hände.",
+      "steps": ["QR-Code scannen", "Produkthistorie anzeigen", "KI-Überprüfung prüfen", "Authentizität bestätigen"]
+    }
+  },
+  "login": {
+    "welcomeBack": "Willkommen zurück",
+    "signInDesc": "Melden Sie sich an, um auf Ihren KI-Assistenten und Chat-Verlauf zuzugreifen",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "signIn": "Anmelden",
+    "signingIn": "Anmeldung läuft...",
+    "noAccount": "Noch kein Konto?",
+    "signUp": "Registrieren",
+    "demoCredentials": "Demo-Anmeldedaten: Registrieren Sie sich zuerst und verwenden Sie dann diese Anmeldedaten zum Anmelden."
+  },
+  "signup": {
+    "createAccount": "Konto erstellen",
+    "signUpDesc": "Registrieren Sie sich für Zugang to KI-gesteuerter Kräuterüberprüfung und Blockchain-Rückverfolgbarkeit",
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "signUp": "Registrieren",
+    "signingUp": "Konto wird erstellt...",
+    "haveAccount": "Bereits ein Konto?",
+    "signIn": "Anmelden",
+    "passwordRequirements": "Passwort muss mindestens 8 Zeichen lang sein"
+  },
+  "upload": {
+    "title": "Kräuterdaten hochladen",
+    "description": "Laden Sie Kräuterbilder mit geo-getaggten Standortdaten für die Blockchain-Überprüfung hoch",
+    "dragDrop": "Kräuterfotos hierher ziehen oder zum Auswählen anklicken",
+    "selectFiles": "Dateien auswählen",
+    "uploading": "Wird hochgeladen...",
+    "upload": "Hochladen",
+    "batchInfo": "Chargeninformationen",
+    "herbName": "Kräutername",
+    "farmLocation": "Bauernhof-Standort",
+    "harvestDate": "Erntedatum",
+    "quantity": "Menge (kg)",
+    "farmerId": "Landwirt-ID",
+    "notes": "Zusätzliche Anmerkungen",
+    "submit": "Zur Überprüfung einreichen",
+    "capturingLocation": "Standort wird erfasst...",
+    "locationCaptured": "Standort erfolgreich erfasst"
+  },
+  "verify": {
+    "title": "Kräuter-Echtheit prüfen",
+    "description": "QR-Code scannen oder Chargen-ID eingeben, um Kräuter-Echtheit zu prüfen",
+    "scanQR": "QR-Code scannen",
+    "uploadQR": "QR-Bild hochladen",
+    "closeScanner": "Scanner schließen",
+    "pointCamera": "Kamera auf QR-Code richten zum Scannen",
+    "enterBatchId": "Oder Chargen-ID manuell eingeben",
+    "batchId": "Chargen-ID",
+    "verify": "Prüfen",
+    "verifying": "Wird geprüft...",
+    "authentic": "Echt",
+    "notAuthentic": "Nicht verifiziert",
+    "verificationDetails": "Prüfungs-Details",
+    "herbInfo": "Kräuter-Information",
+    "origin": "Herkunft",
+    "aiConfidence": "KI-Zuverlässigkeitswert",
+    "blockchainHash": "Blockchain-Hash",
+    "verificationDate": "Prüfungsdatum",
+    "enterId": "QR-Code oder Rekord-ID eingeben.",
+    "notFound": "Kein Kräuter-Rekord für diese ID gefunden.",
+    "enterIdPrompt": "Rekord-ID suchen, um Prüfungs-Details anzuzeigen."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Willkommen",
+    "totalUploads": "Gesamte Uploads",
+    "verifiedBatches": "Überprüfte Chargen",
+    "pendingVerification": "Ausstehende Überprüfung",
+    "recentActivity": "Letzte Aktivitäten",
+    "uploadHistory": "Upload-Verlauf",
+    "viewDetails": "Details anzeigen",
+    "noActivity": "Keine letzten Aktivitäten"
+  },
+  "chatbot": {
+    "title": "KI-Assistent",
+    "placeholder": "Fragen Sie nach Kräuterüberprüfung, Blockchain-Datensätzen oder dem Upload-Prozess...",
+    "welcome": "Hallo! Ich bin Ihr KI-Assistent für AyurAuth. Wie kann ich Ihnen heute helfen?",
+    "typing": "Tippt..."
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "search": "Suchen",
+    "filter": "Filter",
+    "sort": "Sortieren",
+    "date": "Datum",
+    "status": "Status",
+    "actions": "Aktionen",
+    "noData": "Keine Daten verfügbar",
+    "tryAgain": "Erneut versuchen"
+  },
+  "languages": {
+    "english": "English",
+    "hindi": "हिंदी",
+    "tamil": "தமிழ்",
+    "gujarati": "ગુજરાતી",
+    "bengali": "বাংলা",
+    "punjabi": "ਪੰਜਾਬੀ",
+    "malayalam": "മലയാളം",
+    "marathi": "मराठी",
+    "german": "Deutsch",
+    "french": "Français"
+  }
+}

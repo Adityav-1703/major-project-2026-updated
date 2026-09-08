@@ -1,0 +1,175 @@
+{
+  "app": {
+    "name": "AyurAuth",
+    "tagline": "IA + Blockchain Traçabilité des Herbes",
+    "footer": "Conçu pour les agriculteurs, les régulateurs et les consommateurs"
+  },
+  "nav": {
+    "upload": "Télécharger",
+    "verify": "Vérifier",
+    "dashboard": "Tableau de bord",
+    "home": "Accueil",
+    "login": "Connexion",
+    "signup": "Inscription",
+    "logout": "Déconnexion",
+    "backToHome": "Retour à l'accueil"
+  },
+  "landing": {
+    "heroTitle": "Herbes Ayurvédiques Authentiques avec IA & Blockchain",
+    "heroDescription": "Tracez chaque herbe de la ferme au consommateur avec des téléchargements géolocalisés, une vérification automatique et des enregistrements on-chain qui renforcent la confiance transparente basée sur QR.",
+    "startUpload": "Commencer le téléchargement",
+    "scanVerify": "Scanner & Vérifier",
+    "workflow": "Flux de travail",
+    "workflowHelp": "Vous ne connaissez pas notre processus? Cliquez ici for l'aide",
+    "howItWorks": "Comment fonctionne AyurAuth",
+    "workflowDescription": "AyurAuth utilise la technologie IA et blockchain pour garantir l'authenticité des herbes ayurvédiques de la ferme au consommateur. Cliquez sur n'importe quelle étape ci-dessous pour en savoir plus.",
+    "stepsInvolved": "Étapes impliquées:",
+    "features": {
+      "geotagging": "Géolocalisation",
+      "geotaggingDesc": "Capturez les coordonnées de la ferme directement pendant le téléchargement pour une confiance d'origine basée sur la localisation.",
+      "aiVerification": "Vérification IA",
+      "aiVerificationDesc": "Les contrôles pilotés par l'IA aident aux décisions d'authenticité avant que les enregistrements ne soient finalisés.",
+      "transparency": "Transparence",
+      "transparencyDesc": "Les consommateurs vérifient l'historique avec des ID liés par QR et des références blockchain immuables."
+    }
+  },
+  "workflow": {
+    "upload": {
+      "title": "Téléchargement",
+      "description": "Les agriculteurs téléchargent des images d'herbes avec des données de localisation géolocalisées. Faites simplement glisser les photos et notre système capture automatiquement les coordonnées de la ferme.",
+      "steps": ["Prendre des photos d'herbes", "Capture automatique de la localisation", "Entrer les détails du lot", "Soumettre pour vérification"]
+    },
+    "aiVerification": {
+      "title": "Vérification IA",
+      "description": "Notre modèle CNN personnalisé analyse les images d'herbes pour l'authenticité. L'IA vérifie la couleur, la texture, la forme et d'autres caractéristiques visuelles.",
+      "steps": ["Prétraitement de l'image", "Analyse CNN", "Score de confiance", "Décision d'authenticité"]
+    },
+    "blockchain": {
+      "title": "Blockchain",
+      "description": "Les enregistrements vérifiés sont stockés on-chain pour l'immuabilité. Chaque lot reçoit un hachage cryptographique unique pour un suivi infalsifiable.",
+      "steps": ["Créer l'enregistrement blockchain", "Générer le hachage unique", "Stocker les métadonnées", "Lier au code QR"]
+    },
+    "qrGeneration": {
+      "title": "Génération QR",
+      "description": "Un code QR unique est généré pour chaque lot vérifié. Ce code QR contient toutes les informations de traçabilité.",
+      "steps": ["Générer le code QR", "Lier à l'enregistrement blockchain", "Imprimer/affecter au lot", "Prêt pour la distribution"]
+    },
+    "consumerScan": {
+      "title": "Scan Consommateur",
+      "description": "Les consommateurs finaux peuvent scanner le code QR pour vérifier l'authenticité. Ils voient le parcours complet de la ferme jusqu'à leurs mains.",
+      "steps": ["Scanner le code QR", "Voir l'historique du produit", "Vérifier la vérification IA", "Confirmer l'authenticité"]
+    }
+  },
+  "login": {
+    "welcomeBack": "Bon retour",
+    "signInDesc": "Connectez-vous pour accéder à votre assistant IA et à l'historique des discussions",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "signIn": "Se connecter",
+    "signingIn": "Connexion en cours...",
+    "noAccount": "Pas de compte?",
+    "signUp": "S'inscrire",
+    "demoCredentials": "Identifiants de démonstration: Inscrivez-vous d'abord, puis utilisez ces identifiants pour vous connecter."
+  },
+  "signup": {
+    "createAccount": "Créer un compte",
+    "signUpDesc": "Inscrivez-vous pour accéder à la vérification des herbes par IA et à la traçabilité blockchain",
+    "fullName": "Nom complet",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "signUp": "S'inscrire",
+    "signingUp": "Création du compte en cours...",
+    "haveAccount": "Déjà un compte?",
+    "signIn": "Se connecter",
+    "passwordRequirements": "Le mot de passe doit contenir au moins 8 caractères"
+  },
+  "upload": {
+    "title": "Télécharger les données d'herbes",
+    "description": "Téléchargez des images d'herbes avec des données de localisation géolocalisées pour la vérification blockchain",
+    "dragDrop": "Faites glisser les photos d'herbes ici, ou cliquez pour sélectionner",
+    "selectFiles": "Sélectionner les fichiers",
+    "uploading": "Téléchargement en cours...",
+    "upload": "Télécharger",
+    "batchInfo": "Informations sur le lot",
+    "herbName": "Nom de l'herbe",
+    "farmLocation": "Emplacement de la ferme",
+    "harvestDate": "Date de récolte",
+    "quantity": "Quantité (kg)",
+    "farmerId": "ID de l'agriculteur",
+    "notes": "Notes supplémentaires",
+    "submit": "Soumettre pour vérification",
+    "capturingLocation": "Capture de la localisation en cours...",
+    "locationCaptured": "Localisation capturée avec succès"
+  },
+  "verify": {
+    "title": "Vérifier l'authenticité des herbes",
+    "description": "Scannez le code QR ou entrez l'ID du lot pour vérifier l'authenticité des herbes",
+    "scanQR": "Scanner le code QR",
+    "uploadQR": "Télécharger l'image QR",
+    "closeScanner": "Fermer le scanner",
+    "pointCamera": "Pointer la caméra sur le code QR pour le scanner",
+    "enterBatchId": "Ou entrez l'ID du lot manuellement",
+    "batchId": "ID du lot",
+    "verify": "Vérifier",
+    "verifying": "Vérification en cours...",
+    "authentic": "Authentique",
+    "notAuthentic": "Non vérifié",
+    "verificationDetails": "Détails de vérification",
+    "herbInfo": "Informations sur l'herbe",
+    "origin": "Origine",
+    "aiConfidence": "Score de confiance de l'IA",
+    "blockchainHash": "Hachage blockchain",
+    "verificationDate": "Date de vérification",
+    "enterId": "Entrez le code QR ou l'ID du document.",
+    "notFound": "Aucun enregistrement d'herbe trouvé pour cet ID.",
+    "enterIdPrompt": "Recherchez l'ID du document pour afficher les détails de vérification."
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "welcome": "Bienvenue",
+    "totalUploads": "Total des téléchargements",
+    "verifiedBatches": "Lots vérifiés",
+    "pendingVerification": "Vérification en attente",
+    "recentActivity": "Activité récente",
+    "uploadHistory": "Historique des téléchargements",
+    "viewDetails": "Voir les détails",
+    "noActivity": "Aucune activité récente"
+  },
+  "chatbot": {
+    "title": "Assistant IA",
+    "placeholder": "Posez des questions sur la vérification des herbes, les enregistrements blockchain ou le processus de téléchargement...",
+    "welcome": "Bonjour! Je suis votre assistant IA pour AyurAuth. Comment puis-je vous aider aujourd'hui?",
+    "typing": "Écrit..."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "date": "Date",
+    "status": "Statut",
+    "actions": "Actions",
+    "noData": "Aucune donnée disponible",
+    "tryAgain": "Réessayer"
+  },
+  "languages": {
+    "english": "English",
+    "hindi": "हिंदी",
+    "tamil": "தமிழ்",
+    "gujarati": "ગુજરાતી",
+    "bengali": "বাংলা",
+    "punjabi": "ਪੰਜਾਬੀ",
+    "malayalam": "മലയാളം",
+    "marathi": "मराठी",
+    "german": "Deutsch",
+    "french": "Français"
+  }
+}

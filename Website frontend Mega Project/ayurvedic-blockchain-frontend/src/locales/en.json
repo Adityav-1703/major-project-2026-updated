@@ -1,0 +1,196 @@
+{
+  "app": {
+    "name": "AyurAuth",
+    "tagline": "Know your herbs before you buy",
+    "footer": "A B2C authenticity app for shoppers of Ayurvedic herbs"
+  },
+  "nav": {
+    "upload": "Sell / list a batch",
+    "verify": "Scan pack",
+    "dashboard": "Grower dashboard",
+    "shop": "Shop verified herbs",
+    "myChecks": "My checks",
+    "home": "Home",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "backToHome": "Back to Home"
+  },
+  "landing": {
+    "heroTitle": "Shop Ayurvedic herbs you can actually trust",
+    "heroDescription": "AyurAuth is built for you — the buyer. Scan the QR on a pack, see AI authenticity and farm origin, then keep a personal history of every check.",
+    "startUpload": "Growers: list a batch",
+    "scanVerify": "Scan a pack",
+    "browseShop": "Browse verified herbs",
+    "workflow": "Workflow",
+    "workflowHelp": "Don't know our process? Click here for help",
+    "howItWorks": "How AyurAuth Works",
+    "workflowDescription": "You buy the herb. We show whether that pack is AI-verified and where it came from. Growers list batches in the background — your job is to scan, compare, and buy with confidence.",
+    "stepsInvolved": "Steps involved:",
+    "features": {
+      "geotagging": "See the origin",
+      "geotaggingDesc": "Every listed pack carries farm coordinates so you know where the plant was grown.",
+      "aiVerification": "AI authenticity check",
+      "aiVerificationDesc": "A CNN scores the leaf photo against Amla, Guava, Hibiscus, Neem, and Tulsi before a pack is marked genuine.",
+      "transparency": "Your scan history",
+      "transparencyDesc": "Save checks in your consumer account and reopen any QR result later."
+    }
+  },
+  "workflow": {
+    "upload": {
+      "title": "Upload",
+      "description": "Farmers upload herb images with geo-tagged location data. Simply drag & drop photos and our system captures the farm coordinates automatically.",
+      "steps": ["Take herb photos", "Auto-capture location", "Enter batch details", "Submit for verification"]
+    },
+    "aiVerification": {
+      "title": "AI Verification",
+      "description": "Our custom CNN model analyzes the herb images for authenticity. The AI checks color, texture, shape, and other visual features.",
+      "steps": ["Image preprocessing", "CNN analysis", "Confidence scoring", "Authenticity decision"]
+    },
+    "blockchain": {
+      "title": "Blockchain",
+      "description": "Verified records are stored on-chain for immutability. Each batch gets a unique cryptographic hash for tamper-proof tracking.",
+      "steps": ["Create blockchain record", "Generate unique hash", "Store metadata", "Link to QR code"]
+    },
+    "qrGeneration": {
+      "title": "QR Generation",
+      "description": "A unique QR code is generated for each verified batch. This QR code contains the complete traceability information.",
+      "steps": ["Generate QR code", "Link to blockchain record", "Print/assign to batch", "Ready for distribution"]
+    },
+    "consumerScan": {
+      "title": "Consumer Scan",
+      "description": "End consumers can scan the QR code to verify authenticity. They see the complete journey from farm to their hands.",
+      "steps": ["Scan QR code", "View product history", "Check AI verification", "Confirm authenticity"]
+    }
+  },
+  "login": {
+    "welcomeBack": "Welcome back",
+    "signInDesc": "Sign in to save pack scans and browse verified herbs",
+    "email": "Email Address",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up",
+    "demoCredentials": "Shopper demo: consumer@ayurauth.demo — password demo1234@A. Grower demo: farmer@ayurauth.demo"
+  },
+  "signup": {
+    "createAccount": "Create a free shopper account",
+    "signUpDesc": "Track every QR you scan and open verified herb listings. Growers can still list batches after signup from Sell / list a batch.",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "signUp": "Sign Up",
+    "signingUp": "Creating Account...",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "passwordRequirements": "At least 8 characters with letters, numbers, and a symbol (e.g. !@#$)"
+  },
+  "upload": {
+    "title": "Upload Herb Data",
+    "description": "Upload herb images with geo-tagged location data for blockchain verification",
+    "dragDrop": "Drag & drop herb photos here, or click to select",
+    "selectFiles": "Select Files",
+    "uploading": "Uploading...",
+    "upload": "Upload",
+    "batchInfo": "Batch Information",
+    "herbName": "Herb Name",
+    "farmLocation": "Farm Location",
+    "harvestDate": "Harvest Date",
+    "quantity": "Quantity (kg)",
+    "farmerId": "Farmer ID",
+    "notes": "Additional Notes",
+    "submit": "Submit for Verification",
+    "capturingLocation": "Capturing location...",
+    "locationCaptured": "Location captured successfully"
+  },
+  "verify": {
+    "title": "Check the pack in your hand",
+    "description": "Scan the QR on a retail pack or paste the batch ID. We show AI confidence, origin, and whether this listing is verified.",
+    "scanQR": "Scan QR Code",
+    "uploadQR": "Upload QR Image",
+    "closeScanner": "Close Scanner",
+    "pointCamera": "Point camera at QR code to scan",
+    "enterBatchId": "Or enter Batch ID manually",
+    "batchId": "Batch ID",
+    "verify": "Verify",
+    "verifying": "Verifying...",
+    "authentic": "Authentic",
+    "notAuthentic": "Not Verified",
+    "verificationDetails": "Verification Details",
+    "herbInfo": "Herb Information",
+    "origin": "Origin",
+    "aiConfidence": "AI Confidence Score",
+    "blockchainHash": "Blockchain Hash",
+    "verificationDate": "Verification Date",
+    "enterId": "Enter a QR code or record ID.",
+    "notFound": "No herb record found for this ID.",
+    "enterIdPrompt": "Search for a record ID to view verification details.",
+    "validQR": "Valid QR — Authentic batch verified",
+    "invalidQR": "Invalid QR — No matching record found",
+    "malformedQR": "Malformed QR — Not a valid AyurAuth code",
+    "unverifiedQR": "Record found but not AI-verified",
+    "serverError": "Could not reach verification server",
+    "decodingQR": "Decoding QR image..."
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome",
+    "totalUploads": "Total Uploads",
+    "verifiedBatches": "Verified Batches",
+    "pendingVerification": "Pending Verification",
+    "recentActivity": "Recent Activity",
+    "uploadHistory": "Upload History",
+    "viewDetails": "View Details",
+    "noActivity": "No recent activity"
+  },
+  "chatbot": {
+    "title": "AI Assistant",
+    "subtitle": "Information only",
+    "placeholder": "Ask how to scan a pack, read AI scores, or shop verified herbs...",
+    "welcome": "Hi — I'm the AyurAuth shopper assistant. I explain how to scan a pack, read AI authenticity, and browse verified listings. I can't take orders or share contact details.",
+    "typing": "Typing..."
+  },
+  "shop": {
+    "title": "Verified herb listings",
+    "description": "AI-checked batches you can inspect before you buy. Confirm any pack with the QR on the label.",
+    "empty": "No listings yet. When growers publish batches, they appear here.",
+    "confirmPack": "Confirm this pack",
+    "indicativePrice": "Indicative pack price",
+    "origin": "Grown at",
+    "aiScore": "AI score",
+    "onlyVerified": "Show AI-verified only"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "date": "Date",
+    "status": "Status",
+    "actions": "Actions",
+    "noData": "No data available",
+    "tryAgain": "Try Again"
+  },
+  "languages": {
+    "selectLanguage": "Select Language",
+    "english": "English",
+    "hindi": "हिंदी",
+    "tamil": "தமிழ்",
+    "gujarati": "ગુજરાતી",
+    "bengali": "বাংলা",
+    "punjabi": "ਪੰਜਾਬੀ",
+    "malayalam": "മലയാളം",
+    "marathi": "मराठी",
+    "german": "Deutsch",
+    "french": "Français"
+  }
+}

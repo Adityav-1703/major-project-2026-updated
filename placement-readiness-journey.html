@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Placement Readiness Journey</title>
+<style>
+  @page {
+    size: A4 portrait;
+    margin: 15mm;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #000000;
+    background-color: #ffffff;
+    width: fit-content;
+  }
+  .container {
+    border: 2px solid #000000;
+    padding: 28px;
+    background: #ffffff;
+    width: 1000px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 14px;
+  }
+  .header h1 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #000000;
+    line-height: 1.2;
+  }
+
+  .stage-card {
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-bottom: 4px;
+  }
+  .stage-header {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .stage-body {
+    padding: 14px 16px;
+    background-color: #fafafa;
+  }
+  .steps-flow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .step-node {
+    background: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px 8px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+  }
+  .step-arrow {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    flex-shrink: 0;
+  }
+
+  .down-arrow-container {
+    text-align: center;
+    padding: 4px 0;
+  }
+  .down-arrow {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 1;
+  }
+
+  .kpi-strip {
+    margin-top: 20px;
+    border: 2px solid #000000;
+    background-color: #f2f2f2;
+    padding: 16px 14px;
+    border-radius: 4px;
+  }
+  .kpi-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .kpi-item {
+    text-align: center;
+    padding: 2px 6px;
+    flex: 1;
+  }
+  .kpi-value {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+  }
+  .kpi-label {
+    font-size: 14px;
+    color: #111111;
+    font-weight: 600;
+    margin-top: 4px;
+    line-height: 1.2;
+  }
+  .kpi-divider {
+    width: 1px;
+    height: 36px;
+    background-color: #000000;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>Placement Readiness Journey</h1>
+  </div>
+
+  <!-- STAGE 1 -->
+  <div class="stage-card">
+    <div class="stage-header">
+      FOUNDATION
+    </div>
+    <div class="stage-body">
+      <div class="steps-flow">
+        <div class="step-node">Personal Brand</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">SWOT/KASH</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Grooming</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Resume</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">KYC/JD</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Aptitude</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="down-arrow-container">
+    <div class="down-arrow">↓</div>
+  </div>
+
+  <!-- STAGE 2 -->
+  <div class="stage-card">
+    <div class="stage-header">
+      ASSESSMENT READINESS
+    </div>
+    <div class="stage-body">
+      <div class="steps-flow">
+        <div class="step-node">GD</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">PI</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Behavioural Interviews</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Presentations</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Business Storytelling</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="down-arrow-container">
+    <div class="down-arrow">↓</div>
+  </div>
+
+  <!-- STAGE 3 -->
+  <div class="stage-card">
+    <div class="stage-header">
+      ROLE READINESS
+    </div>
+    <div class="stage-body">
+      <div class="steps-flow">
+        <div class="step-node">Industry Deep-Dive</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Cases</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Guesstimates</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Functional Interviews</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="down-arrow-container">
+    <div class="down-arrow">↓</div>
+  </div>
+
+  <!-- STAGE 4 -->
+  <div class="stage-card">
+    <div class="stage-header">
+      COMPANY READINESS
+    </div>
+    <div class="stage-body">
+      <div class="steps-flow">
+        <div class="step-node">JD Decoding</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Recruiter Research</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Company-Specific Mocks</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Alumni Prep</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="down-arrow-container">
+    <div class="down-arrow">↓</div>
+  </div>
+
+  <!-- STAGE 5 -->
+  <div class="stage-card">
+    <div class="stage-header">
+      CONVERSION
+    </div>
+    <div class="stage-body">
+      <div class="steps-flow">
+        <div class="step-node">Internship</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">SIP</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">PPO</div>
+        <div class="step-arrow">→</div>
+        <div class="step-node">Final Placement</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KPI STRIP -->
+  <div class="kpi-strip">
+    <div class="kpi-grid">
+      <div class="kpi-item">
+        <div class="kpi-value">750+</div>
+        <div class="kpi-label">Students Trained</div>
+      </div>
+      <div class="kpi-divider"></div>
+      <div class="kpi-item">
+        <div class="kpi-value">44</div>
+        <div class="kpi-label">Advanced Modules</div>
+      </div>
+      <div class="kpi-divider"></div>
+      <div class="kpi-item">
+        <div class="kpi-value">170/170</div>
+        <div class="kpi-label">PGPM CRP Mocks</div>
+      </div>
+      <div class="kpi-divider"></div>
+      <div class="kpi-item">
+        <div class="kpi-value">100%</div>
+        <div class="kpi-label">PGDM CRP Mock-PI Completion</div>
+      </div>
+      <div class="kpi-divider"></div>
+      <div class="kpi-item">
+        <div class="kpi-value">258/259</div>
+        <div class="kpi-label">Functional Alumni Interviews</div>
+      </div>
+      <div class="kpi-divider"></div>
+      <div class="kpi-item">
+        <div class="kpi-value">19</div>
+        <div class="kpi-label">PPOs Recorded</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

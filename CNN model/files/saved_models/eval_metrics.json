@@ -1,0 +1,91 @@
+{
+  "source": "saved_models/confusion_matrix_final.png (validation split 20%, seed 42, 122 images)",
+  "dataset": "Kaggle aryashah2k/indian-medicinal-leaves-dataset, 5 classes",
+  "accuracy": 0.8114754098360656,
+  "macro": {
+    "precision": 0.7922590453025236,
+    "recall": 0.7844108934543718,
+    "f1": 0.7825002883173798
+  },
+  "weighted": {
+    "precision": 0.8160457029309489,
+    "recall": 0.8114754098360656,
+    "f1": 0.808280286086465
+  },
+  "per_class": {
+    "Amla": {
+      "precision": 0.6,
+      "recall": 0.46153846153846156,
+      "f1": 0.5217391304347826,
+      "support": 13
+    },
+    "Guava": {
+      "precision": 0.696969696969697,
+      "recall": 0.92,
+      "f1": 0.7931034482758621,
+      "support": 25
+    },
+    "Hibiscus": {
+      "precision": 0.9130434782608695,
+      "recall": 0.9130434782608695,
+      "f1": 0.9130434782608695,
+      "support": 23
+    },
+    "Neem": {
+      "precision": 0.8846153846153846,
+      "recall": 0.8846153846153846,
+      "f1": 0.8846153846153846,
+      "support": 26
+    },
+    "Tulsi": {
+      "precision": 0.8666666666666667,
+      "recall": 0.7428571428571429,
+      "f1": 0.8,
+      "support": 35
+    }
+  },
+  "confusion_matrix": [
+    [
+      6,
+      7,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      23,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      21,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      1,
+      23,
+      1
+    ],
+    [
+      3,
+      2,
+      1,
+      3,
+      26
+    ]
+  ],
+  "labels": [
+    "Amla",
+    "Guava",
+    "Hibiscus",
+    "Neem",
+    "Tulsi"
+  ]
+}
